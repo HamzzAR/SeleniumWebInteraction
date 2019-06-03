@@ -35,6 +35,7 @@ public class SeleniumTest {
 		WebElement we = driver.findElement(By.xpath("//*[@id=\"tsf\"]/div[2]/div/div[1]/div/div[1]/input"));
 		we.sendKeys("Cute Kittens");
 		we.sendKeys(Keys.ENTER);
+		
 	}
 
 }
